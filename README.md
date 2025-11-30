@@ -1,7 +1,7 @@
 # Terra Invicta Modding Hub
 
 ## Basic Knowledge
-- Terra Invicta is currently (as of build 0.3.111) built with Unity **2020.3.48f1**.
+- Terra Invicta is currently (as of build RC4) built with Unity **2020.3.49f1**.
 - Configuration files are located in `\TerraInvicta_Data\StreamingAssets\Templates`.
 - Localization files (game text) are located in `\TerraInvicta_Data\StreamingAssets\Localization\en`.
 - The game's assets (textures, models, videos) are located in `\TerraInvicta_Data\StreamingAssets\AssetBundles`.
@@ -14,12 +14,13 @@
   - [PowerShell script](mods/tayta/anime-councilors/waifu2vid.ps1) for mass conversion of pngs to webms.
 - [GIMP](https://www.gimp.org/downloads/): Open-source image editor, useful for preparing new 2D graphics to import into the game.
   - [Older versions archive](https://download.gimp.org/pub/gimp/)
-- [dnSpy](https://github.com/dnSpy/dnSpy/releases): Used to view and edit the game's code.
-  - Note that this is decompiled code, therefore lacks documentation and can be difficult to decipher.
+- [dnSpy](https://github.com/dnSpyEx/dnSpy): Used to view and edit the game's code.
+  - Note that this is decompiled code, therefore lacks documentation and can be difficult to decipher. DnSpyEx is the currently maintained fork.
 - [AssetStudio](https://github.com/Perfare/AssetStudio/releases): Allows decompiling the game's AssetBundles to see what's inside.
   - Currently the only known such utility that works with Unity 2020.
 - [JSON to CSV](http://www.convertcsv.com/json-to-csv.htm): Enables easier editing of the game's configuration files in spreadsheet format.
 - [Navigable Tech Tree (maintained by Sarah)](https://sarahwatt.ca/terra-invicta/techtree/?lang=en) : Allows navigating the large tech tree outside the game.
+- [UnityExplorer](https://github.com/yukieiji/UnityExplorer): A mod that lets you explore and experiment with assets and code in game. Make sure you get the maintained fork linked here or it will crash when starting a game.
 
 ## Tutorials
 - [Introduction to Importing Assets](tutorials/Custom%20Orgs.md)
